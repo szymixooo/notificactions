@@ -1,0 +1,15 @@
+<meta>
+<script src='utils.lua' type='client' cache='false'/>
+<script src='c.lua' type='client' cache='false'/>
+<script src='s.lua' type='server'/>
+<file src="bg.png"/>
+<file src="err.png"/>
+<file src="sukc.png"/>
+<file src="info.png"/>
+<file src="sounds/success.mp3"/>
+<file src="sounds/info.mp3"/>
+<file src="sounds/error.mp3"/>
+<file src="f.ttf"/>
+<export function="noti" type="shared"/>
+
+</meta>
