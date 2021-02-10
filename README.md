@@ -1,15 +1,15 @@
 # notifications
-Prosty, a zarazem miły dla oka i wydajny system graficznych notyfikacji.
+Simple, and easy to use graphical notifications script for MTA:SA
 # użycie
 ```
---s-side: exports["nazwa_zasobu"]:noti(text, type, time, player)
---c-side: exports["nazwa_zasobu"]:noti(text, type, time)
+--s-side: exports["notificactions"]:noti(text, type, time, player)
+--c-side: exports["notificactions"]:noti(text, type, time)
 ```
 ```
-text: treść informacji
+text:
 type: "info" / "success" / "error"
-time: (w ms) wartość, którą trzeba wpisać, np. 1000 (1 sek).
-player: element, któremu się wyświetla informacja (tylko w s-side)
+time: (in miliseconds), example 1000 for 1 second.
+player: element
 ```
 # od autora
-zezwalam na używanie zasobu gdziekolwiek, jak sobie tylko chcecie.
+Free to use, don't remove my sign from the top of scripts.
